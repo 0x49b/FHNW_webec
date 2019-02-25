@@ -1,0 +1,18 @@
+
+Di, 19.02.19	12:15 - 15:00 HTML	
+Di, 26.02.19	12:15 - 15:00 CSS	
+Di, 05.03.19	12:15 - 15:00 Grails, Web, MVC	
+Di, 12.03.19	12:15 - 15:00 GSP, Template, Taglib, Layout		
+Di, 19.03.19	12:15 - 15:00 Consolidation training, Testing	
+Di, 26.03.19	12:15 - 15:00 Persistence, DB-Access (GORM)		
+Di, 02.04.19	12:15 - 15:00 REST, Services	                          	
+Di, 09.04.19	12:15 - 15:00 Role-based Security	                      	
+Di, 16.04.19	12:15 - 15:00 Übungsvorbereitung ** Anwesenheitspflicht **	
+
+Di, 30.04.19	12:15 - 15:00 Übungsanlass 
+	
+Di, 14.05.19	12:15 - 15:00 Übungsanlass	          	
+Di, 21.05.19	12:15 - 15:00 Javascript, **Übungsabgabe**	
+Di, 28.05.19	12:15 - 15:00 Responsive / Mobile Web 	
+Di, 04.06.19	12:15 - 15:00 Deployment	          	
+Di, 11.06.19	12:15 - 15:00 Prüfungsvorbereitung
