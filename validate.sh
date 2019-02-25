@@ -5,7 +5,7 @@ if [[ -z $1 ]]; then
     exit
 else
 
-    result=$(curl -H "Content-Type: text/html; charset=utf-8" -s --data-binary @docs/${1} https://validator.w3.org/nu/?out=gnu)
+    result=$(curl -H "Content-Type: text/html; charset=utf-8" -s --data-binary @${1} https://validator.w3.org/nu/?out=gnu)
 
     if [[  -z ${result} ]]; then
         echo "check passed"
