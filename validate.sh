@@ -1,8 +1,17 @@
 #!/usr/bin/env bash
 
 if [[ -z $1 ]]; then
-    echo "specify either json or gnu output";
-    break
+    echo "Please provide a file to check."
+    exit
 else
-    curl -H "Content-Type: text/html; charset=utf-8" --data-binary @docs/storybook.html https://validator.w3.org/nu/?out=${1}
+
+    result=$(curl -H "Content-Type: text/html; charset=utf-8" -s --data-binary @docs/${1} https://validator.w3.org/nu/?out=gnu)
+
+    if [[  -z ${result} ]]; then
+        echo "check passed"
+    else
+        echo "check NOT passed"
+        echo ${result}
+    fi
+
 fi
