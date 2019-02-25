@@ -4,22 +4,145 @@
     <meta charset="UTF-8">
     <title>Storybook for the Web Engineering Module</title>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+
         html {
-            background-color: #0041a6;
+            background-color: #6C57CC;
+            background-image: linear-gradient(to right, #6C57CC, #C850C0);
         }
 
         body {
-            font-family: 'Arial', sans-serif;
-            max-width: 80%;
+            font-family: 'Roboto', 'Arial', sans-serif;
             margin: 0 auto;
-            padding-left: 2em;
-            padding-right: 2em;
-            background-color: aliceblue;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding-top: 60px;
         }
 
         header {
-            padding: 1.2em 0;
+            margin: 0;
+            height: 60px;
+            width: 100%;
+            background-color: #362F4A;
+            position: fixed;
+            top: 0;
+            vertical-align: middle;
+            line-height: 60px;
+            padding-left: 2em;
+            z-index: 10;
         }
+
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 2.2em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.8em;
+        }
+
+        h4 {
+            font-size: 1.6em;
+        }
+
+        h5 {
+            font-size: 1.4em;
+        }
+
+        h6 {
+            font-size: 1.2em;
+        }
+
+        section {
+            width: 100%;
+        }
+
+        table {
+            word-wrap: break-word;
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        caption {
+            margin: 0.5em;
+            text-align: left;
+        }
+
+
+        th, td {
+            padding: 20px;
+            vertical-align: middle;
+        }
+
+        thead > tr {
+            background-color: #362F4A;
+            border: none;
+            color: #f2f2f2;
+            text-align: left;
+        }
+
+
+        thead tr th:nth-child(1) {
+            width: 20%;
+        }
+
+        thead tr th:nth-child(2) {
+            width: 20%;
+        }
+
+        thead tr th:nth-child(3) {
+            width: 60%;
+        }
+
+
+        tbody, tfoot {
+            color: #3d3d3d;
+        }
+
+        tbody tr:nth-child(even), tfoot {
+            background-color: #bebebe;
+        }
+
+
+        tbody tr:nth-child(odd) {
+            background-color: #dcdcdc;
+        }
+
+        tfoot tr td {
+            text-align: center;
+            font-weight: 900;
+        }
+
+
+        section article:nth-child(3) p {
+            border-bottom: 1px dotted #ffffff;
+        }
+
+        section article:nth-child(3) p:nth-last-child(1) {
+            border-bottom: 1px solid #ffffff;
+        }
+
+        section article:nth-child(3) p code {
+            float: right;
+        }
+
+
+        footer {
+            white-space: normal;
+        }
+
     </style>
 </head>
 <body>
