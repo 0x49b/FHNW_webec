@@ -14,19 +14,20 @@
 
         }
 
-        header{
-            grid-gap:0;
+        header {
+            grid-gap: 0;
             height: 20%;
             display: grid;
-        }
+            grid-template-columns: 25% 25% 25% 25%;
 
+        }
 
 
         header div:nth-child(1) {
             background-color: #1abc9c;
             padding: 0;
             margin: 0;
-            grid-row:1;
+            grid-row: 1;
             grid-column: 1/4;
         }
 
@@ -34,7 +35,7 @@
             background-color: #16a085;
             padding: 0;
             margin: 0;
-            grid-row:1;
+            grid-row: 1;
             grid-column: 2/4;
         }
 
@@ -42,7 +43,7 @@
             background-color: #27ae60;
             padding: 0;
             margin: 0;
-            grid-row:1;
+            grid-row: 1;
             grid-column: 3/4;
         }
 
@@ -50,52 +51,52 @@
             background-color: #2ecc71;
             padding: 0;
             margin: 0;
-            grid-row:1;
+            grid-row: 1;
             grid-column: 4/4;
         }
-
 
 
         main {
             height: 50%;
             display: grid;
-
+            grid-template-columns: 61.8% 38.2%;
         }
 
         main div:nth-child(1) {
             background-color: #2980b9;
-            grid-row:1;
-            grid-column: 1/1;
+            grid-row: 1;
+            grid-column: 1/2;
         }
 
         main div:nth-child(2) {
             background-color: #3498db;
-            grid-row:1;
-            grid-column: 2/3;
+            grid-row: 1;
+            grid-column: 2/2;
         }
 
 
         footer {
-            display:grid;
+            display: grid;
             height: 30%;
+            grid-template-columns: 25% 50% 25%;
         }
 
         footer div:nth-child(1) {
             background-color: #8e44ad;
             grid-row: 1;
-            grid-column: 1/4;
+            grid-column: 1/3;
         }
 
         footer div:nth-child(2) {
             background-color: #9b59b6;
             grid-row: 1;
-            grid-column: 2/4;
+            grid-column: 2/3;
         }
 
         footer div:nth-child(3) {
             background-color: #34495e;
             grid-row: 1;
-            grid-column: 4/4;
+            grid-column: 3/3;
         }
 
     </style>
