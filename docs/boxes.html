@@ -16,14 +16,12 @@
         header{
             grid-gap:0;
             height: 15%;
-            width:100%;
             display: grid;
         }
 
 
 
         header div:nth-child(1) {
-
             background-color: #1abc9c;
             padding: 0;
             margin: 0;
@@ -69,30 +67,34 @@
             grid-column: 1/1;
         }
 
-        main div:nth-child(1) {
-            /*background-color: #3498db;*/
+        main div:nth-child(2) {
+            background-color: #3498db;
             grid-row:1;
             grid-column: 2/3;
         }
 
 
         footer {
-            height: 30%;
+            display:grid;
+            height: 35%;
         }
 
         footer div:nth-child(1) {
             background-color: #8e44ad;
-            width: 25%;
+            grid-row: 1;
+            grid-column: 1/4;
         }
 
-        footer div:nth-child(1) {
+        footer div:nth-child(2) {
             background-color: #9b59b6;
-            width: 50%;
+            grid-row: 1;
+            grid-column: 2/4;
         }
 
-        footer div:nth-child(1) {
+        footer div:nth-child(3) {
             background-color: #34495e;
-            width: 25%;
+            grid-row: 1;
+            grid-column: 4/4;
         }
 
     </style>

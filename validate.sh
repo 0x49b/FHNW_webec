@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# -- css validator https://jigsaw.w3.org/css-validator/
+
 if [[ -z $1 ]]; then
     echo "Please provide a file to check."
     exit
